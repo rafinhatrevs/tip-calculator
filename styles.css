@@ -5,16 +5,16 @@ body {
 main {
   background: linear-gradient(30deg, #52B2CF, #B37BA4);
   box-shadow: 0 2px 2px #B37BA4;
+  border-radius: 4rem;
   max-width: 50rem;
   margin: 2rem auto;
   padding: 3rem 1.6rem 6rem 1.6rem;
-  border-radius: 4rem;
 }
 
 h1 {
-  color: #DCCDE8;
   margin: 0;
   padding-bottom: 3rem;
+  color: #DCCDE8;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   font-size: 3rem;
@@ -24,9 +24,9 @@ h1 {
 section {
   background-color: #FAFAFF;
   box-shadow: inset 0 2px 2px #eee;
+  border-radius: 1rem;
   margin-bottom: 1.6rem;
   padding: 0 1.6rem;
-  border-radius: 1rem;
   font-size: 1.8rem;
 }
 
@@ -56,10 +56,10 @@ section>div {
 
 input[type="number"] {
   background: #FAFAFF;
-  border: 1px solid #eee;
   box-shadow: inset 0 2px 2px #eee;
-  padding: 0.8rem 0 0.8rem 1rem;
+  border: 1px solid #eee;
   border-radius: 0.5rem;
+  padding: 0.8rem 0 0.8rem 1rem;
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
   font-size: 1.6rem;
@@ -83,31 +83,31 @@ input[type="number"] {
 .range {
   background: #eee;
   outline-color: #DCCDE8;
+  border-radius: 0.3rem;
   -webkit-appearance: none;
   appearance: none;
   width: 100%;
   height: 8px;
   margin-top: 1.2rem;
-  border-radius: 0.3rem;
 }
 
 .range::-webkit-slider-thumb {
   background: #DCCDE8;
+  border-radius: 50%;
+  cursor: pointer;
   -webkit-appearance: none;
   appearance: none;
   width: 2.2rem;
   height: 2.2rem;
-  border-radius: 50%;
-  cursor: pointer;
 }
 
 .range::-moz-range-thumb {
   background: #DCCDE8;
+  border-radius: 50%;
+  border: 0;
+  cursor: pointer;
   -webkit-appearance: none;
   appearance: none;
   width: 2.2rem;
   height: 2.2rem;
-  border-radius: 50%;
-  cursor: pointer;
-  border: 0;
 }
