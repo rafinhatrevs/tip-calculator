@@ -1,10 +1,10 @@
 function formatMoney(value) {
-    value = Math.ceil(value * 100) / 100; // arredonda o valor para mais
-    value = value.toFixed(2); // fixa o valor decimal em 2 casas
+    value = Math.ceil(value * 100) / 100;
+    value = value.toFixed(2);
     return '$ ' + value;
 }
 
-function formatSplit(value) { // retorna person quando 1 pessoa e people quando mais pessoas
+function formatSplit(value) {
     if (value == 1) {
         return value + ' person';
     }
