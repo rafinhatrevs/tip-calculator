@@ -1,1 +1,1 @@
-Atividade - Tip Calculator
+Activity - Tip Calculator
